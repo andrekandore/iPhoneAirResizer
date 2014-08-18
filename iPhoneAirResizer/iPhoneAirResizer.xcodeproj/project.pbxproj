@@ -1,0 +1,651 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		B3DA94ED19A2399F00DCBF36 /* All */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B3DA94EE19A2399F00DCBF36 /* Build configuration list for PBXAggregateTarget "All" */;
+			buildPhases = (
+			);
+			dependencies = (
+				B3DA94F219A239B100DCBF36 /* PBXTargetDependency */,
+				B3DA94F419A239B100DCBF36 /* PBXTargetDependency */,
+				B3DA94F619A239B100DCBF36 /* PBXTargetDependency */,
+			);
+			name = All;
+			productName = All;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		B3DA94AC19A2335400DCBF36 /* iPhoneAirResizer.h in Headers */ = {isa = PBXBuildFile; fileRef = B3DA94AB19A2335400DCBF36 /* iPhoneAirResizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3DA94B619A2335400DCBF36 /* iPhoneAirResizerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DA94B519A2335400DCBF36 /* iPhoneAirResizerTests.m */; };
+		B3DA94C519A2348000DCBF36 /* NSDynamicDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = B3DA94BF19A2348000DCBF36 /* NSDynamicDictionary.h */; };
+		B3DA94C619A2348000DCBF36 /* NSDynamicDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DA94C019A2348000DCBF36 /* NSDynamicDictionary.m */; };
+		B3DA94C719A2348000DCBF36 /* NSDynamicDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DA94C019A2348000DCBF36 /* NSDynamicDictionary.m */; };
+		B3DA94C819A2348000DCBF36 /* UIViewController+SubviewControllerTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = B3DA94C119A2348000DCBF36 /* UIViewController+SubviewControllerTransition.h */; };
+		B3DA94C919A2348000DCBF36 /* UIViewController+SubviewControllerTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DA94C219A2348000DCBF36 /* UIViewController+SubviewControllerTransition.m */; };
+		B3DA94CA19A2348000DCBF36 /* UIViewController+SubviewControllerTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DA94C219A2348000DCBF36 /* UIViewController+SubviewControllerTransition.m */; };
+		B3DA94CB19A2348000DCBF36 /* APPTestiPhoneUXViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B3DA94C319A2348000DCBF36 /* APPTestiPhoneUXViewController.h */; };
+		B3DA94CC19A2348000DCBF36 /* APPTestiPhoneUXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DA94C419A2348000DCBF36 /* APPTestiPhoneUXViewController.m */; };
+		B3DA94CD19A2348000DCBF36 /* APPTestiPhoneUXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DA94C419A2348000DCBF36 /* APPTestiPhoneUXViewController.m */; };
+		B3DA94D019A2348D00DCBF36 /* NSMutableString+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = B3DA94CE19A2348D00DCBF36 /* NSMutableString+Additions.h */; };
+		B3DA94D119A2348D00DCBF36 /* NSMutableString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DA94CF19A2348D00DCBF36 /* NSMutableString+Additions.m */; };
+		B3DA94D219A2348D00DCBF36 /* NSMutableString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DA94CF19A2348D00DCBF36 /* NSMutableString+Additions.m */; };
+		B3DA94DA19A2386300DCBF36 /* iPhoneAirResizerLib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B3DA94D919A2386300DCBF36 /* iPhoneAirResizerLib.h */; };
+		B3DA94DC19A2386300DCBF36 /* iPhoneAirResizerLib.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DA94DB19A2386300DCBF36 /* iPhoneAirResizerLib.m */; };
+		B3DA94F719A23AB900DCBF36 /* UIViewController+SubviewControllerTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DA94C219A2348000DCBF36 /* UIViewController+SubviewControllerTransition.m */; };
+		B3DA94F819A23AB900DCBF36 /* NSMutableString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DA94CF19A2348D00DCBF36 /* NSMutableString+Additions.m */; };
+		B3DA94F919A23AB900DCBF36 /* NSDynamicDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DA94C019A2348000DCBF36 /* NSDynamicDictionary.m */; };
+		B3DA94FA19A23AB900DCBF36 /* APPTestiPhoneUXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DA94C419A2348000DCBF36 /* APPTestiPhoneUXViewController.m */; };
+		B3DA94FB19A23AC200DCBF36 /* APPTestiPhoneUXViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B3DA94C319A2348000DCBF36 /* APPTestiPhoneUXViewController.h */; };
+		B3DA956119A2455800DCBF36 /* UIViewUILayerAccessories.h in Headers */ = {isa = PBXBuildFile; fileRef = B3DA955F19A2455800DCBF36 /* UIViewUILayerAccessories.h */; };
+		B3DA956219A2455800DCBF36 /* UIViewUILayerAccessories.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DA956019A2455800DCBF36 /* UIViewUILayerAccessories.m */; };
+		B3DA956319A2455800DCBF36 /* UIViewUILayerAccessories.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DA956019A2455800DCBF36 /* UIViewUILayerAccessories.m */; };
+		B3DA956419A2455800DCBF36 /* UIViewUILayerAccessories.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DA956019A2455800DCBF36 /* UIViewUILayerAccessories.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B3DA94F119A239B100DCBF36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3DA949D19A2335400DCBF36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3DA94A519A2335400DCBF36;
+			remoteInfo = iPhoneAirResizer;
+		};
+		B3DA94F319A239B100DCBF36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3DA949D19A2335400DCBF36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3DA94D619A2386300DCBF36;
+			remoteInfo = iPhoneAirResizerLib;
+		};
+		B3DA94F519A239B100DCBF36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3DA949D19A2335400DCBF36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3DA94B019A2335400DCBF36;
+			remoteInfo = iPhoneAirResizerTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B3DA94D519A2386300DCBF36 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				B3DA94FB19A23AC200DCBF36 /* APPTestiPhoneUXViewController.h in CopyFiles */,
+				B3DA94DA19A2386300DCBF36 /* iPhoneAirResizerLib.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B3DA94A619A2335400DCBF36 /* iPhoneAirResizer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iPhoneAirResizer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3DA94AA19A2335400DCBF36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3DA94AB19A2335400DCBF36 /* iPhoneAirResizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iPhoneAirResizer.h; sourceTree = "<group>"; };
+		B3DA94B119A2335400DCBF36 /* iPhoneAirResizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iPhoneAirResizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3DA94B419A2335400DCBF36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3DA94B519A2335400DCBF36 /* iPhoneAirResizerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iPhoneAirResizerTests.m; sourceTree = "<group>"; };
+		B3DA94BF19A2348000DCBF36 /* NSDynamicDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDynamicDictionary.h; sourceTree = "<group>"; };
+		B3DA94C019A2348000DCBF36 /* NSDynamicDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDynamicDictionary.m; sourceTree = "<group>"; };
+		B3DA94C119A2348000DCBF36 /* UIViewController+SubviewControllerTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+SubviewControllerTransition.h"; sourceTree = "<group>"; };
+		B3DA94C219A2348000DCBF36 /* UIViewController+SubviewControllerTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+SubviewControllerTransition.m"; sourceTree = "<group>"; };
+		B3DA94C319A2348000DCBF36 /* APPTestiPhoneUXViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APPTestiPhoneUXViewController.h; sourceTree = "<group>"; };
+		B3DA94C419A2348000DCBF36 /* APPTestiPhoneUXViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APPTestiPhoneUXViewController.m; sourceTree = "<group>"; };
+		B3DA94CE19A2348D00DCBF36 /* NSMutableString+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+Additions.h"; sourceTree = "<group>"; };
+		B3DA94CF19A2348D00DCBF36 /* NSMutableString+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+Additions.m"; sourceTree = "<group>"; };
+		B3DA94D719A2386300DCBF36 /* libiPhoneAirResizerLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libiPhoneAirResizerLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3DA94D919A2386300DCBF36 /* iPhoneAirResizerLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iPhoneAirResizerLib.h; sourceTree = "<group>"; };
+		B3DA94DB19A2386300DCBF36 /* iPhoneAirResizerLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iPhoneAirResizerLib.m; sourceTree = "<group>"; };
+		B3DA955F19A2455800DCBF36 /* UIViewUILayerAccessories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewUILayerAccessories.h; sourceTree = "<group>"; };
+		B3DA956019A2455800DCBF36 /* UIViewUILayerAccessories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewUILayerAccessories.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3DA94A219A2335400DCBF36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3DA94AE19A2335400DCBF36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3DA94D419A2386300DCBF36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3DA949C19A2335400DCBF36 = {
+			isa = PBXGroup;
+			children = (
+				B3DA94A819A2335400DCBF36 /* iPhoneAirResizer */,
+				B3DA94B219A2335400DCBF36 /* iPhoneAirResizerTests */,
+				B3DA94D819A2386300DCBF36 /* iPhoneAirResizerLib */,
+				B3DA94A719A2335400DCBF36 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3DA94A719A2335400DCBF36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3DA94A619A2335400DCBF36 /* iPhoneAirResizer.framework */,
+				B3DA94B119A2335400DCBF36 /* iPhoneAirResizerTests.xctest */,
+				B3DA94D719A2386300DCBF36 /* libiPhoneAirResizerLib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3DA94A819A2335400DCBF36 /* iPhoneAirResizer */ = {
+			isa = PBXGroup;
+			children = (
+				B3DA94EB19A2389500DCBF36 /* Internal */,
+				B3DA94EC19A238B400DCBF36 /* Public */,
+				B3DA94AB19A2335400DCBF36 /* iPhoneAirResizer.h */,
+				B3DA94A919A2335400DCBF36 /* Supporting Files */,
+			);
+			path = iPhoneAirResizer;
+			sourceTree = "<group>";
+		};
+		B3DA94A919A2335400DCBF36 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3DA94AA19A2335400DCBF36 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B3DA94B219A2335400DCBF36 /* iPhoneAirResizerTests */ = {
+			isa = PBXGroup;
+			children = (
+				B3DA94B519A2335400DCBF36 /* iPhoneAirResizerTests.m */,
+				B3DA94B319A2335400DCBF36 /* Supporting Files */,
+			);
+			path = iPhoneAirResizerTests;
+			sourceTree = "<group>";
+		};
+		B3DA94B319A2335400DCBF36 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3DA94B419A2335400DCBF36 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B3DA94D819A2386300DCBF36 /* iPhoneAirResizerLib */ = {
+			isa = PBXGroup;
+			children = (
+				B3DA94D919A2386300DCBF36 /* iPhoneAirResizerLib.h */,
+				B3DA94DB19A2386300DCBF36 /* iPhoneAirResizerLib.m */,
+			);
+			path = iPhoneAirResizerLib;
+			sourceTree = "<group>";
+		};
+		B3DA94EB19A2389500DCBF36 /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				B3DA94C119A2348000DCBF36 /* UIViewController+SubviewControllerTransition.h */,
+				B3DA94C219A2348000DCBF36 /* UIViewController+SubviewControllerTransition.m */,
+				B3DA94CE19A2348D00DCBF36 /* NSMutableString+Additions.h */,
+				B3DA94CF19A2348D00DCBF36 /* NSMutableString+Additions.m */,
+				B3DA955F19A2455800DCBF36 /* UIViewUILayerAccessories.h */,
+				B3DA956019A2455800DCBF36 /* UIViewUILayerAccessories.m */,
+				B3DA94BF19A2348000DCBF36 /* NSDynamicDictionary.h */,
+				B3DA94C019A2348000DCBF36 /* NSDynamicDictionary.m */,
+			);
+			path = Internal;
+			sourceTree = "<group>";
+		};
+		B3DA94EC19A238B400DCBF36 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				B3DA94C319A2348000DCBF36 /* APPTestiPhoneUXViewController.h */,
+				B3DA94C419A2348000DCBF36 /* APPTestiPhoneUXViewController.m */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B3DA94A319A2335400DCBF36 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3DA94C519A2348000DCBF36 /* NSDynamicDictionary.h in Headers */,
+				B3DA94CB19A2348000DCBF36 /* APPTestiPhoneUXViewController.h in Headers */,
+				B3DA94C819A2348000DCBF36 /* UIViewController+SubviewControllerTransition.h in Headers */,
+				B3DA94AC19A2335400DCBF36 /* iPhoneAirResizer.h in Headers */,
+				B3DA956119A2455800DCBF36 /* UIViewUILayerAccessories.h in Headers */,
+				B3DA94D019A2348D00DCBF36 /* NSMutableString+Additions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B3DA94A519A2335400DCBF36 /* iPhoneAirResizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3DA94B919A2335400DCBF36 /* Build configuration list for PBXNativeTarget "iPhoneAirResizer" */;
+			buildPhases = (
+				B3DA94A119A2335400DCBF36 /* Sources */,
+				B3DA94A219A2335400DCBF36 /* Frameworks */,
+				B3DA94A319A2335400DCBF36 /* Headers */,
+				B3DA94A419A2335400DCBF36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iPhoneAirResizer;
+			productName = iPhoneAirResizer;
+			productReference = B3DA94A619A2335400DCBF36 /* iPhoneAirResizer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B3DA94B019A2335400DCBF36 /* iPhoneAirResizerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3DA94BC19A2335400DCBF36 /* Build configuration list for PBXNativeTarget "iPhoneAirResizerTests" */;
+			buildPhases = (
+				B3DA94AD19A2335400DCBF36 /* Sources */,
+				B3DA94AE19A2335400DCBF36 /* Frameworks */,
+				B3DA94AF19A2335400DCBF36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iPhoneAirResizerTests;
+			productName = iPhoneAirResizerTests;
+			productReference = B3DA94B119A2335400DCBF36 /* iPhoneAirResizerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B3DA94D619A2386300DCBF36 /* iPhoneAirResizerLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3DA94E519A2386400DCBF36 /* Build configuration list for PBXNativeTarget "iPhoneAirResizerLib" */;
+			buildPhases = (
+				B3DA94D319A2386300DCBF36 /* Sources */,
+				B3DA94D419A2386300DCBF36 /* Frameworks */,
+				B3DA94D519A2386300DCBF36 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iPhoneAirResizerLib;
+			productName = iPhoneAirResizerLib;
+			productReference = B3DA94D719A2386300DCBF36 /* libiPhoneAirResizerLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3DA949D19A2335400DCBF36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "アンドレ";
+				TargetAttributes = {
+					B3DA94A519A2335400DCBF36 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					B3DA94B019A2335400DCBF36 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					B3DA94D619A2386300DCBF36 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					B3DA94ED19A2399F00DCBF36 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+				};
+			};
+			buildConfigurationList = B3DA94A019A2335400DCBF36 /* Build configuration list for PBXProject "iPhoneAirResizer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B3DA949C19A2335400DCBF36;
+			productRefGroup = B3DA94A719A2335400DCBF36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3DA94ED19A2399F00DCBF36 /* All */,
+				B3DA94A519A2335400DCBF36 /* iPhoneAirResizer */,
+				B3DA94D619A2386300DCBF36 /* iPhoneAirResizerLib */,
+				B3DA94B019A2335400DCBF36 /* iPhoneAirResizerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3DA94A419A2335400DCBF36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3DA94AF19A2335400DCBF36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3DA94A119A2335400DCBF36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3DA94C619A2348000DCBF36 /* NSDynamicDictionary.m in Sources */,
+				B3DA94CC19A2348000DCBF36 /* APPTestiPhoneUXViewController.m in Sources */,
+				B3DA956219A2455800DCBF36 /* UIViewUILayerAccessories.m in Sources */,
+				B3DA94C919A2348000DCBF36 /* UIViewController+SubviewControllerTransition.m in Sources */,
+				B3DA94D119A2348D00DCBF36 /* NSMutableString+Additions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3DA94AD19A2335400DCBF36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3DA94B619A2335400DCBF36 /* iPhoneAirResizerTests.m in Sources */,
+				B3DA94C719A2348000DCBF36 /* NSDynamicDictionary.m in Sources */,
+				B3DA94CD19A2348000DCBF36 /* APPTestiPhoneUXViewController.m in Sources */,
+				B3DA94CA19A2348000DCBF36 /* UIViewController+SubviewControllerTransition.m in Sources */,
+				B3DA94D219A2348D00DCBF36 /* NSMutableString+Additions.m in Sources */,
+				B3DA956419A2455800DCBF36 /* UIViewUILayerAccessories.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3DA94D319A2386300DCBF36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3DA94F719A23AB900DCBF36 /* UIViewController+SubviewControllerTransition.m in Sources */,
+				B3DA94FA19A23AB900DCBF36 /* APPTestiPhoneUXViewController.m in Sources */,
+				B3DA94F819A23AB900DCBF36 /* NSMutableString+Additions.m in Sources */,
+				B3DA94F919A23AB900DCBF36 /* NSDynamicDictionary.m in Sources */,
+				B3DA94DC19A2386300DCBF36 /* iPhoneAirResizerLib.m in Sources */,
+				B3DA956319A2455800DCBF36 /* UIViewUILayerAccessories.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B3DA94F219A239B100DCBF36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3DA94A519A2335400DCBF36 /* iPhoneAirResizer */;
+			targetProxy = B3DA94F119A239B100DCBF36 /* PBXContainerItemProxy */;
+		};
+		B3DA94F419A239B100DCBF36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3DA94D619A2386300DCBF36 /* iPhoneAirResizerLib */;
+			targetProxy = B3DA94F319A239B100DCBF36 /* PBXContainerItemProxy */;
+		};
+		B3DA94F619A239B100DCBF36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3DA94B019A2335400DCBF36 /* iPhoneAirResizerTests */;
+			targetProxy = B3DA94F519A239B100DCBF36 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B3DA94B719A2335400DCBF36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B3DA94B819A2335400DCBF36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B3DA94BA19A2335400DCBF36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = iPhoneAirResizer/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B3DA94BB19A2335400DCBF36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = iPhoneAirResizer/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B3DA94BD19A2335400DCBF36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iPhoneAirResizerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B3DA94BE19A2335500DCBF36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iPhoneAirResizerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B3DA94E619A2386400DCBF36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B3DA94E719A2386400DCBF36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B3DA94EF19A2399F00DCBF36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B3DA94F019A2399F00DCBF36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3DA94A019A2335400DCBF36 /* Build configuration list for PBXProject "iPhoneAirResizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3DA94B719A2335400DCBF36 /* Debug */,
+				B3DA94B819A2335400DCBF36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3DA94B919A2335400DCBF36 /* Build configuration list for PBXNativeTarget "iPhoneAirResizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3DA94BA19A2335400DCBF36 /* Debug */,
+				B3DA94BB19A2335400DCBF36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3DA94BC19A2335400DCBF36 /* Build configuration list for PBXNativeTarget "iPhoneAirResizerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3DA94BD19A2335400DCBF36 /* Debug */,
+				B3DA94BE19A2335500DCBF36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3DA94E519A2386400DCBF36 /* Build configuration list for PBXNativeTarget "iPhoneAirResizerLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3DA94E619A2386400DCBF36 /* Debug */,
+				B3DA94E719A2386400DCBF36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3DA94EE19A2399F00DCBF36 /* Build configuration list for PBXAggregateTarget "All" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3DA94EF19A2399F00DCBF36 /* Debug */,
+				B3DA94F019A2399F00DCBF36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3DA949D19A2335400DCBF36 /* Project object */;
+}

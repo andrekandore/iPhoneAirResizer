@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6205" systemVersion="13E28" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="0dd-Lb-wz5">
+    <dependencies>
+        <deployment version="1552" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6198"/>
+        <capability name="Constraints with attributes relative to the layout margin" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Testi PhoneUX View Controller-->
+        <scene sceneID="whC-EA-X1c">
+            <objects>
+                <viewController id="0dd-Lb-wz5" customClass="APPTestiPhoneUXViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="uUs-m5-dKM"/>
+                        <viewControllerLayoutGuide type="bottom" id="IXe-17-M5v"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tf7-vf-4KM">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1ZU-ap-gip">
+                                <rect key="frame" x="140" y="60" width="320" height="480"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="320" id="OMc-Aw-mUI"/>
+                                    <constraint firstAttribute="height" constant="480" id="yKi-jC-XAK"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.59544682500000001" green="0.59544682500000001" blue="0.59544682500000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" segmentControlStyle="plain" translatesAutoresizingMaskIntoConstraints="NO" id="QgW-Q9-Bdx">
+                                <rect key="frame" x="149" y="570" width="303" height="29"/>
+                                <segments>
+                                    <segment title="iPhone 4"/>
+                                    <segment title="iPhone 5"/>
+                                    <segment title="iPhone 6"/>
+                                    <segment title="iPhone 6L"/>
+                                </segments>
+                                <connections>
+                                    <action selector="setSelectediPhoneIndex:" destination="0dd-Lb-wz5" eventType="valueChanged" id="ei7-cs-5N7"/>
+                                </connections>
+                            </segmentedControl>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iPhone 4" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="ssF-l0-pPx">
+                                <rect key="frame" x="483" y="47" width="76" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="76" id="1R7-7q-Sn4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="320x480" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="Sz2-PV-jeg">
+                                <rect key="frame" x="483" y="70" width="76" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="76" id="ZMu-xw-WhF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="tCA-iP-14d">
+                                <rect key="frame" x="531" y="99" width="51" height="31"/>
+                                <connections>
+                                    <action selector="setWideScreenWithSender:" destination="0dd-Lb-wz5" eventType="valueChanged" id="N31-iK-oxM"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wide" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nez-Fw-EzX">
+                                <rect key="frame" x="484" y="104" width="39" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="tCA-iP-14d" firstAttribute="trailing" secondItem="tf7-vf-4KM" secondAttribute="trailingMargin" id="2cj-9o-dcM"/>
+                            <constraint firstItem="IXe-17-M5v" firstAttribute="top" secondItem="QgW-Q9-Bdx" secondAttribute="bottom" constant="2" id="43l-Qu-tjg"/>
+                            <constraint firstItem="nez-Fw-EzX" firstAttribute="top" secondItem="Sz2-PV-jeg" secondAttribute="bottom" constant="13" id="7nL-rF-npg"/>
+                            <constraint firstAttribute="centerX" secondItem="1ZU-ap-gip" secondAttribute="centerX" id="Cwq-lO-hvw"/>
+                            <constraint firstItem="tCA-iP-14d" firstAttribute="leading" secondItem="nez-Fw-EzX" secondAttribute="trailing" constant="8" id="Hgk-cV-Hba"/>
+                            <constraint firstItem="Sz2-PV-jeg" firstAttribute="top" secondItem="ssF-l0-pPx" secondAttribute="bottom" constant="2" id="K9w-tB-38W"/>
+                            <constraint firstAttribute="centerX" secondItem="QgW-Q9-Bdx" secondAttribute="centerX" id="kgP-Aj-EzD"/>
+                            <constraint firstAttribute="trailing" secondItem="Sz2-PV-jeg" secondAttribute="trailing" constant="41" id="ky9-xk-Enn"/>
+                            <constraint firstItem="tCA-iP-14d" firstAttribute="centerY" secondItem="nez-Fw-EzX" secondAttribute="centerY" id="mGz-fi-Y9K"/>
+                            <constraint firstItem="ssF-l0-pPx" firstAttribute="top" secondItem="uUs-m5-dKM" secondAttribute="bottom" constant="27" id="mJV-0n-pvT"/>
+                            <constraint firstAttribute="centerY" secondItem="1ZU-ap-gip" secondAttribute="centerY" id="nSY-wq-DQj"/>
+                            <constraint firstAttribute="trailing" secondItem="ssF-l0-pPx" secondAttribute="trailing" constant="41" id="sV0-eI-mB4"/>
+                        </constraints>
+                    </view>
+                    <toolbarItems/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="hostViewControllerNibName" value="ApplicationManual"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outlet property="hostViewControllerContainer" destination="1ZU-ap-gip" id="4Sb-Iu-3wb"/>
+                        <outlet property="hostViewControllerHorizontalSizeConstraint" destination="OMc-Aw-mUI" id="Lgn-3D-zok"/>
+                        <outlet property="hostViewControllerVerticalSizeConstraint" destination="yKi-jC-XAK" id="r7V-SM-MgR"/>
+                        <outlet property="iPhoneSelector" destination="QgW-Q9-Bdx" id="XFr-dB-pva"/>
+                        <outlet property="phoneModelLabel" destination="ssF-l0-pPx" id="cBa-Rl-UrH"/>
+                        <outlet property="phoneSizeLabel" destination="Sz2-PV-jeg" id="hRd-Rq-AlD"/>
+                        <outlet property="view" destination="tf7-vf-4KM" id="E0w-VH-7DU"/>
+                        <outlet property="widescreenSwitch" destination="tCA-iP-14d" id="grb-l5-x9B"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dwp-Z3-jhl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-465" y="-554"/>
+        </scene>
+    </scenes>
+</document>
