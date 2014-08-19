@@ -15,4 +15,6 @@ For Testing UI Layout on Multiple iPhone Sizes (on iPad)
 10. For Storyboard based iPhone apps, set "hostViewControllerStoryboardName" as key, and the name of your root storyboard file as value
 11. Launch your Host App on iPad / iPad Simulator, if your app is well-behaved, it should launch without crashing...
 
+Most of the interesting code is in iPhoneAirResizer/iPhoneAirResizer/Public/APPTestiPhoneUXViewController.m
+
 As always, make sure to see the sample app located in iPhoneAirResizerExample/TestiPhoneApp.xcworkspace for a working example!
