@@ -31,7 +31,7 @@
 		B3DA94C819A2348000DCBF36 /* UIViewController+SubviewControllerTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = B3DA94C119A2348000DCBF36 /* UIViewController+SubviewControllerTransition.h */; };
 		B3DA94C919A2348000DCBF36 /* UIViewController+SubviewControllerTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DA94C219A2348000DCBF36 /* UIViewController+SubviewControllerTransition.m */; };
 		B3DA94CA19A2348000DCBF36 /* UIViewController+SubviewControllerTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DA94C219A2348000DCBF36 /* UIViewController+SubviewControllerTransition.m */; };
-		B3DA94CB19A2348000DCBF36 /* APPTestiPhoneUXViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B3DA94C319A2348000DCBF36 /* APPTestiPhoneUXViewController.h */; };
+		B3DA94CB19A2348000DCBF36 /* APPTestiPhoneUXViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B3DA94C319A2348000DCBF36 /* APPTestiPhoneUXViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B3DA94CC19A2348000DCBF36 /* APPTestiPhoneUXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DA94C419A2348000DCBF36 /* APPTestiPhoneUXViewController.m */; };
 		B3DA94CD19A2348000DCBF36 /* APPTestiPhoneUXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DA94C419A2348000DCBF36 /* APPTestiPhoneUXViewController.m */; };
 		B3DA94D019A2348D00DCBF36 /* NSMutableString+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = B3DA94CE19A2348D00DCBF36 /* NSMutableString+Additions.h */; };
