@@ -51,7 +51,9 @@
                                           [group addAsset: asset];
                                           
                                           //run the completion block
-                                          completionBlock(nil);
+                                          if (nil != completionBlock) {
+                                              completionBlock(nil);
+                                          }
                                           
                                       } failureBlock: completionBlock];
 
@@ -76,7 +78,9 @@
                                                                             [group addAsset: asset];
                                                                             
                                                                             //call the completion block
-                                                                            completionBlock(nil);
+                                                                            if (nil != completionBlock) {
+                                                                                completionBlock(nil);
+                                                                            }
 
                                                                         } failureBlock: completionBlock];
                                                           
