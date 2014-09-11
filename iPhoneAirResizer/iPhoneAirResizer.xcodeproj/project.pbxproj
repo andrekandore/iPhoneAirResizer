@@ -23,6 +23,12 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		B38332F119C2661E005EE29E /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B38332F019C2661E005EE29E /* AssetsLibrary.framework */; };
+		B38332F219C2662C005EE29E /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B38332F019C2661E005EE29E /* AssetsLibrary.framework */; };
+		B38332F519C268F8005EE29E /* ALAssetsLibrary+CustomPhotoAlbum.h in Headers */ = {isa = PBXBuildFile; fileRef = B38332F319C268F8005EE29E /* ALAssetsLibrary+CustomPhotoAlbum.h */; };
+		B38332F619C268F8005EE29E /* ALAssetsLibrary+CustomPhotoAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = B38332F419C268F8005EE29E /* ALAssetsLibrary+CustomPhotoAlbum.m */; };
+		B38332F719C268F8005EE29E /* ALAssetsLibrary+CustomPhotoAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = B38332F419C268F8005EE29E /* ALAssetsLibrary+CustomPhotoAlbum.m */; };
+		B38332F819C268F8005EE29E /* ALAssetsLibrary+CustomPhotoAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = B38332F419C268F8005EE29E /* ALAssetsLibrary+CustomPhotoAlbum.m */; };
 		B3DA94AC19A2335400DCBF36 /* iPhoneAirResizer.h in Headers */ = {isa = PBXBuildFile; fileRef = B3DA94AB19A2335400DCBF36 /* iPhoneAirResizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B3DA94B619A2335400DCBF36 /* iPhoneAirResizerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DA94B519A2335400DCBF36 /* iPhoneAirResizerTests.m */; };
 		B3DA94C519A2348000DCBF36 /* NSDynamicDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = B3DA94BF19A2348000DCBF36 /* NSDynamicDictionary.h */; };
@@ -89,6 +95,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B38332F019C2661E005EE29E /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		B38332F319C268F8005EE29E /* ALAssetsLibrary+CustomPhotoAlbum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALAssetsLibrary+CustomPhotoAlbum.h"; sourceTree = "<group>"; };
+		B38332F419C268F8005EE29E /* ALAssetsLibrary+CustomPhotoAlbum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALAssetsLibrary+CustomPhotoAlbum.m"; sourceTree = "<group>"; };
 		B3DA94A619A2335400DCBF36 /* iPhoneAirResizer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iPhoneAirResizer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3DA94AA19A2335400DCBF36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3DA94AB19A2335400DCBF36 /* iPhoneAirResizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iPhoneAirResizer.h; sourceTree = "<group>"; };
@@ -115,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B38332F119C2661E005EE29E /* AssetsLibrary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,6 +139,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B38332F219C2662C005EE29E /* AssetsLibrary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +149,7 @@
 		B3DA949C19A2335400DCBF36 = {
 			isa = PBXGroup;
 			children = (
+				B38332F019C2661E005EE29E /* AssetsLibrary.framework */,
 				B3DA94A819A2335400DCBF36 /* iPhoneAirResizer */,
 				B3DA94B219A2335400DCBF36 /* iPhoneAirResizerTests */,
 				B3DA94D819A2386300DCBF36 /* iPhoneAirResizerLib */,
@@ -205,6 +217,8 @@
 			children = (
 				B3DA94C119A2348000DCBF36 /* UIViewController+SubviewControllerTransition.h */,
 				B3DA94C219A2348000DCBF36 /* UIViewController+SubviewControllerTransition.m */,
+				B38332F319C268F8005EE29E /* ALAssetsLibrary+CustomPhotoAlbum.h */,
+				B38332F419C268F8005EE29E /* ALAssetsLibrary+CustomPhotoAlbum.m */,
 				B3DA94CE19A2348D00DCBF36 /* NSMutableString+Additions.h */,
 				B3DA94CF19A2348D00DCBF36 /* NSMutableString+Additions.m */,
 				B3DA955F19A2455800DCBF36 /* UIViewUILayerAccessories.h */,
@@ -234,6 +248,7 @@
 				B3DA94C519A2348000DCBF36 /* NSDynamicDictionary.h in Headers */,
 				B3DA94CB19A2348000DCBF36 /* APPTestiPhoneUXViewController.h in Headers */,
 				B3DA94C819A2348000DCBF36 /* UIViewController+SubviewControllerTransition.h in Headers */,
+				B38332F519C268F8005EE29E /* ALAssetsLibrary+CustomPhotoAlbum.h in Headers */,
 				B3DA94AC19A2335400DCBF36 /* iPhoneAirResizer.h in Headers */,
 				B3DA956119A2455800DCBF36 /* UIViewUILayerAccessories.h in Headers */,
 				B3DA94D019A2348D00DCBF36 /* NSMutableString+Additions.h in Headers */,
@@ -365,6 +380,7 @@
 				B3DA956219A2455800DCBF36 /* UIViewUILayerAccessories.m in Sources */,
 				B3DA94C919A2348000DCBF36 /* UIViewController+SubviewControllerTransition.m in Sources */,
 				B3DA94D119A2348D00DCBF36 /* NSMutableString+Additions.m in Sources */,
+				B38332F619C268F8005EE29E /* ALAssetsLibrary+CustomPhotoAlbum.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,6 +388,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B38332F819C268F8005EE29E /* ALAssetsLibrary+CustomPhotoAlbum.m in Sources */,
 				B3DA94B619A2335400DCBF36 /* iPhoneAirResizerTests.m in Sources */,
 				B3DA94C719A2348000DCBF36 /* NSDynamicDictionary.m in Sources */,
 				B3DA94CD19A2348000DCBF36 /* APPTestiPhoneUXViewController.m in Sources */,
@@ -385,6 +402,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B38332F719C268F8005EE29E /* ALAssetsLibrary+CustomPhotoAlbum.m in Sources */,
 				B3DA94F719A23AB900DCBF36 /* UIViewController+SubviewControllerTransition.m in Sources */,
 				B3DA94FA19A23AB900DCBF36 /* APPTestiPhoneUXViewController.m in Sources */,
 				B3DA94F819A23AB900DCBF36 /* NSMutableString+Additions.m in Sources */,

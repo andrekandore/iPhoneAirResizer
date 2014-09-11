@@ -5,8 +5,11 @@
 //  Copyright (c) 平成26年 アンドレ. All rights reserved.
 //
 
-#import "APPTestiPhoneUXViewController.h"
 #import "UIViewController+SubviewControllerTransition.h"
+#import "ALAssetsLibrary+CustomPhotoAlbum.h"
+#import "APPTestiPhoneUXViewController.h"
+
+@import AssetsLibrary;
 
 @interface APPTestiPhoneUXViewController ()
 
@@ -129,6 +132,25 @@
 	if (self.sizes.count > selectedIndex) {
 		self.selectediPhone = self.sizes[sender.selectedSegmentIndex];
 	}
+}
+
+- (IBAction)performSnapshot:(id)sender {
+    UIView *viewToCapture = self.hostViewControllerContainer;
+    if (nil != viewToCapture) {
+        UIImage *sharingImage = nil;
+        UIGraphicsBeginImageContextWithOptions(viewToCapture.frame.size, NO, 0.0);
+        
+        [viewToCapture.layer renderInContext:UIGraphicsGetCurrentContext()];
+        sharingImage = UIGraphicsGetImageFromCurrentImageContext();
+        
+        UIGraphicsEndImageContext();
+
+        if (nil != sharingImage) {
+            ALAssetsLibrary *library = [[ALAssetsLibrary alloc] init];
+            [library saveImage:sharingImage toAlbum:@"iPhone Resizer Photos" withCompletionBlock:nil];
+        }
+
+    }
 }
 
 - (void)dealloc {

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6205" systemVersion="13E28" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="0dd-Lb-wz5">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="0dd-Lb-wz5">
     <dependencies>
         <deployment version="1552" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6198"/>
-        <capability name="Constraints with attributes relative to the layout margin" minToolsVersion="6.0"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Testi PhoneUX View Controller-->
@@ -47,7 +47,7 @@
                                 </connections>
                             </segmentedControl>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iPhone 4" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="ssF-l0-pPx">
-                                <rect key="frame" x="483" y="47" width="76" height="21"/>
+                                <rect key="frame" x="483" y="30" width="76" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="76" id="1R7-7q-Sn4"/>
                                 </constraints>
@@ -56,7 +56,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="320x480" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="Sz2-PV-jeg">
-                                <rect key="frame" x="483" y="70" width="76" height="21"/>
+                                <rect key="frame" x="483" y="53" width="76" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="76" id="ZMu-xw-WhF"/>
                                 </constraints>
@@ -65,30 +65,39 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="tCA-iP-14d">
-                                <rect key="frame" x="531" y="99" width="51" height="31"/>
+                                <rect key="frame" x="531" y="79" width="51" height="31"/>
                                 <connections>
                                     <action selector="setWideScreenWithSender:" destination="0dd-Lb-wz5" eventType="valueChanged" id="N31-iK-oxM"/>
                                 </connections>
                             </switch>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wide" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nez-Fw-EzX">
-                                <rect key="frame" x="484" y="104" width="39" height="21"/>
+                                <rect key="frame" x="484" y="84" width="39" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W0g-Xo-pJ8">
+                                <rect key="frame" x="517" y="569" width="67" height="30"/>
+                                <state key="normal" title="Snapshot">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="performSnapshot:" destination="0dd-Lb-wz5" eventType="touchUpInside" id="JLD-fk-jSM"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="tCA-iP-14d" firstAttribute="trailing" secondItem="tf7-vf-4KM" secondAttribute="trailingMargin" id="2cj-9o-dcM"/>
                             <constraint firstItem="IXe-17-M5v" firstAttribute="top" secondItem="QgW-Q9-Bdx" secondAttribute="bottom" constant="2" id="43l-Qu-tjg"/>
-                            <constraint firstItem="nez-Fw-EzX" firstAttribute="top" secondItem="Sz2-PV-jeg" secondAttribute="bottom" constant="13" id="7nL-rF-npg"/>
+                            <constraint firstItem="nez-Fw-EzX" firstAttribute="top" secondItem="Sz2-PV-jeg" secondAttribute="bottom" constant="10" id="7nL-rF-npg"/>
                             <constraint firstAttribute="centerX" secondItem="1ZU-ap-gip" secondAttribute="centerX" id="Cwq-lO-hvw"/>
                             <constraint firstItem="tCA-iP-14d" firstAttribute="leading" secondItem="nez-Fw-EzX" secondAttribute="trailing" constant="8" id="Hgk-cV-Hba"/>
                             <constraint firstItem="Sz2-PV-jeg" firstAttribute="top" secondItem="ssF-l0-pPx" secondAttribute="bottom" constant="2" id="K9w-tB-38W"/>
                             <constraint firstAttribute="centerX" secondItem="QgW-Q9-Bdx" secondAttribute="centerX" id="kgP-Aj-EzD"/>
                             <constraint firstAttribute="trailing" secondItem="Sz2-PV-jeg" secondAttribute="trailing" constant="41" id="ky9-xk-Enn"/>
                             <constraint firstItem="tCA-iP-14d" firstAttribute="centerY" secondItem="nez-Fw-EzX" secondAttribute="centerY" id="mGz-fi-Y9K"/>
-                            <constraint firstItem="ssF-l0-pPx" firstAttribute="top" secondItem="uUs-m5-dKM" secondAttribute="bottom" constant="27" id="mJV-0n-pvT"/>
+                            <constraint firstItem="ssF-l0-pPx" firstAttribute="top" secondItem="uUs-m5-dKM" secondAttribute="bottom" constant="10" id="mJV-0n-pvT"/>
                             <constraint firstAttribute="centerY" secondItem="1ZU-ap-gip" secondAttribute="centerY" id="nSY-wq-DQj"/>
                             <constraint firstAttribute="trailing" secondItem="ssF-l0-pPx" secondAttribute="trailing" constant="41" id="sV0-eI-mB4"/>
                         </constraints>
