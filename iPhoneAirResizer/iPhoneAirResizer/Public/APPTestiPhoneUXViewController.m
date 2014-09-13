@@ -21,7 +21,7 @@
 @synthesize wideScreen = _wideScreen;
 
 - (NSArray *)sizes {
-	return @[@{@"name": @"iPhone 4",@"size":@{@"height":@(480),@"width":@(320)}},@{@"name": @"iPhone 5",@"size":@{@"height":@(569),@"width":@(320)}},@{@"name": @"iPhone 6",@"size":@{@"height":@(667),@"width":@(375)}},@{@"name": @"iPhone 6L",@"size":@{@"height":@(960),@"width":@(540)}}];
+	return @[@{@"name": @"iPhone 4",@"size":@{@"height":@(480),@"width":@(320)}},@{@"name": @"iPhone 5",@"size":@{@"height":@(569),@"width":@(320)}},@{@"name": @"iPhone 6",@"size":@{@"height":@(667),@"width":@(375)}},@{@"name": @"iPhone 6+",@"size":@{@"height":@(736),@"width":@(414)}}];
 }
 
 - (void)viewDidLoad {
