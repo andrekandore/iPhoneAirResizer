@@ -30,3 +30,21 @@
 }
 
 @end
+
+@implementation NSString (NSStringAdditions)
+
+- (NSString *)unCapitalizedString {
+    
+    NSString *uncapitalizedString = self;
+    
+    if (self.length > 0) {
+        NSString *lowerCasePart = [[self substringToIndex:1] lowercaseString];
+        NSString *upperCasePart = [self substringFromIndex:1];
+        
+        uncapitalizedString = [lowerCasePart stringByAppendingString:upperCasePart];
+    }
+    
+    return uncapitalizedString;
+}
+
+@end

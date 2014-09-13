@@ -28,7 +28,8 @@
 }
 
 - (void)setBorderWidth:(CGFloat)borderWidth {
-    self.layer.borderWidth = (borderWidth < 1.0f ? (self.window.screen.scale < 2 ? 1.0f : borderWidth) : borderWidth);
+    borderWidth = (borderWidth < 1.0f ? (UIScreen.mainScreen.scale < 2 ? 1.0f : borderWidth) : borderWidth);
+    self.layer.borderWidth = borderWidth;
 }
 
 - (CGFloat)borderWidth {

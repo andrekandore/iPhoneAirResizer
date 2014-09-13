@@ -23,6 +23,10 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		B3259B4519C4C45F000B88AB /* Application+Convenience.h in Headers */ = {isa = PBXBuildFile; fileRef = B3259B4319C4C45F000B88AB /* Application+Convenience.h */; };
+		B3259B4619C4C45F000B88AB /* Application+Convenience.m in Sources */ = {isa = PBXBuildFile; fileRef = B3259B4419C4C45F000B88AB /* Application+Convenience.m */; };
+		B3259B4719C4C45F000B88AB /* Application+Convenience.m in Sources */ = {isa = PBXBuildFile; fileRef = B3259B4419C4C45F000B88AB /* Application+Convenience.m */; };
+		B3259B4819C4C45F000B88AB /* Application+Convenience.m in Sources */ = {isa = PBXBuildFile; fileRef = B3259B4419C4C45F000B88AB /* Application+Convenience.m */; };
 		B38332F119C2661E005EE29E /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B38332F019C2661E005EE29E /* AssetsLibrary.framework */; };
 		B38332F219C2662C005EE29E /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B38332F019C2661E005EE29E /* AssetsLibrary.framework */; };
 		B38332F519C268F8005EE29E /* ALAssetsLibrary+CustomPhotoAlbum.h in Headers */ = {isa = PBXBuildFile; fileRef = B38332F319C268F8005EE29E /* ALAssetsLibrary+CustomPhotoAlbum.h */; };
@@ -95,6 +99,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B3259B4319C4C45F000B88AB /* Application+Convenience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Application+Convenience.h"; sourceTree = "<group>"; };
+		B3259B4419C4C45F000B88AB /* Application+Convenience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Application+Convenience.m"; sourceTree = "<group>"; };
 		B38332F019C2661E005EE29E /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		B38332F319C268F8005EE29E /* ALAssetsLibrary+CustomPhotoAlbum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALAssetsLibrary+CustomPhotoAlbum.h"; sourceTree = "<group>"; };
 		B38332F419C268F8005EE29E /* ALAssetsLibrary+CustomPhotoAlbum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALAssetsLibrary+CustomPhotoAlbum.m"; sourceTree = "<group>"; };
@@ -219,6 +225,8 @@
 				B3DA94C219A2348000DCBF36 /* UIViewController+SubviewControllerTransition.m */,
 				B38332F319C268F8005EE29E /* ALAssetsLibrary+CustomPhotoAlbum.h */,
 				B38332F419C268F8005EE29E /* ALAssetsLibrary+CustomPhotoAlbum.m */,
+				B3259B4319C4C45F000B88AB /* Application+Convenience.h */,
+				B3259B4419C4C45F000B88AB /* Application+Convenience.m */,
 				B3DA94CE19A2348D00DCBF36 /* NSMutableString+Additions.h */,
 				B3DA94CF19A2348D00DCBF36 /* NSMutableString+Additions.m */,
 				B3DA955F19A2455800DCBF36 /* UIViewUILayerAccessories.h */,
@@ -251,6 +259,7 @@
 				B38332F519C268F8005EE29E /* ALAssetsLibrary+CustomPhotoAlbum.h in Headers */,
 				B3DA94AC19A2335400DCBF36 /* iPhoneAirResizer.h in Headers */,
 				B3DA956119A2455800DCBF36 /* UIViewUILayerAccessories.h in Headers */,
+				B3259B4519C4C45F000B88AB /* Application+Convenience.h in Headers */,
 				B3DA94D019A2348D00DCBF36 /* NSMutableString+Additions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -380,6 +389,7 @@
 				B3DA956219A2455800DCBF36 /* UIViewUILayerAccessories.m in Sources */,
 				B3DA94C919A2348000DCBF36 /* UIViewController+SubviewControllerTransition.m in Sources */,
 				B3DA94D119A2348D00DCBF36 /* NSMutableString+Additions.m in Sources */,
+				B3259B4619C4C45F000B88AB /* Application+Convenience.m in Sources */,
 				B38332F619C268F8005EE29E /* ALAssetsLibrary+CustomPhotoAlbum.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -391,6 +401,7 @@
 				B38332F819C268F8005EE29E /* ALAssetsLibrary+CustomPhotoAlbum.m in Sources */,
 				B3DA94B619A2335400DCBF36 /* iPhoneAirResizerTests.m in Sources */,
 				B3DA94C719A2348000DCBF36 /* NSDynamicDictionary.m in Sources */,
+				B3259B4819C4C45F000B88AB /* Application+Convenience.m in Sources */,
 				B3DA94CD19A2348000DCBF36 /* APPTestiPhoneUXViewController.m in Sources */,
 				B3DA94CA19A2348000DCBF36 /* UIViewController+SubviewControllerTransition.m in Sources */,
 				B3DA94D219A2348D00DCBF36 /* NSMutableString+Additions.m in Sources */,
@@ -405,6 +416,7 @@
 				B38332F719C268F8005EE29E /* ALAssetsLibrary+CustomPhotoAlbum.m in Sources */,
 				B3DA94F719A23AB900DCBF36 /* UIViewController+SubviewControllerTransition.m in Sources */,
 				B3DA94FA19A23AB900DCBF36 /* APPTestiPhoneUXViewController.m in Sources */,
+				B3259B4719C4C45F000B88AB /* Application+Convenience.m in Sources */,
 				B3DA94F819A23AB900DCBF36 /* NSMutableString+Additions.m in Sources */,
 				B3DA94F919A23AB900DCBF36 /* NSDynamicDictionary.m in Sources */,
 				B3DA94DC19A2386300DCBF36 /* iPhoneAirResizerLib.m in Sources */,

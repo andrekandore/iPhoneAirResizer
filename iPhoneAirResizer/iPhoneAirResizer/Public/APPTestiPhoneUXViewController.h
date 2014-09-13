@@ -36,18 +36,31 @@
 @property NSArray *hostNibObjects;
 @property UINib *hostNib;
 
+
 - (IBAction)setSelectediPhoneIndex:(UISegmentedControl *)sender;
-
-@property (weak, nonatomic) IBOutlet UISwitch *widescreenSwitch;
 @property IBOutlet UISegmentedControl *iPhoneSelector;
-
 @property (readonly) NSArray <IndexedSizes> *sizes;
 @property NSObject <iPhone> *selectediPhone;
 
-@property BOOL wideScreen;
-- (IBAction)setWideScreenWithSender:(UISwitch *)sender;
-
 @property (weak) IBOutlet UILabel *phoneModelLabel;
 @property (weak) IBOutlet UILabel *phoneSizeLabel;
+
+@property (weak, nonatomic) IBOutlet UIView *snapshotOverlay;
+
+@property (weak, nonatomic) IBOutlet UISwitch *animateResizeSwitch;
+- (IBAction)setAnimateResizeWithSender:(UISwitch *)sender;
+@property BOOL animateResize;
+
+@property (weak, nonatomic) IBOutlet UISwitch *widescreenSwitch;
+- (IBAction)setWideScreenWithSender:(UISwitch *)sender;
+@property BOOL wideScreen;
+
+@property (weak, nonatomic) IBOutlet UISwitch *snapshotAllSizesSwitch;
+- (IBAction)setSnapshotAllSizesWithSender:(UISwitch *)sender;
+@property BOOL snapshotAllSizes;
+
+@property (weak, nonatomic) IBOutlet UISwitch *snapshotWithBorderSwitch;
+- (IBAction)setSnapshotWithBorderWithSender:(UISwitch *)sender;
+@property BOOL snapshotWithBorder;
 
 @end

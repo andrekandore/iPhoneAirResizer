@@ -7,8 +7,12 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSMutableString (NewstepNSStringAdditions)
+@interface NSMutableString (NSStringAdditions)
 - (void)removeLastCharacter;
 - (void)unCapitalizeString;
 @end
 
+
+@interface NSString (NSStringAdditions)
+- (NSString *)unCapitalizedString;
+@end
