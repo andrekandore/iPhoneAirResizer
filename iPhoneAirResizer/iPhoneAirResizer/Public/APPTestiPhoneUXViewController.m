@@ -211,10 +211,13 @@
     UIView *viewToCapture = self.hostViewControllerContainer;
     if (nil != viewToCapture) {
         if (!snapshotWithBorder) {
-            self.currentViewToCaptureBorderWidth = viewToCapture.borderWidth;
-            self.currentViewToCaptureBorderColor = viewToCapture.borderColor;
-            viewToCapture.borderColor = UIColor.clearColor;
-            viewToCapture.borderWidth = 0;
+            if (viewToCapture.borderWidth > 0 && ![UIColor.clearColor isEqual:viewToCapture.borderColor]) {
+                //In the case that NO gets passed twice, we dont overwrite self.currentViewToCaptureBorderColor  with clear color, otherwise when starting up with NO being passed, border cant be turned on without app restart
+                self.currentViewToCaptureBorderWidth = viewToCapture.borderWidth;
+                self.currentViewToCaptureBorderColor = viewToCapture.borderColor;
+                viewToCapture.borderColor = UIColor.clearColor;
+                viewToCapture.borderWidth = 0;
+            }
         } else {
             if (nil != self.currentViewToCaptureBorderColor) {
                 viewToCapture.borderColor = self.currentViewToCaptureBorderColor;
